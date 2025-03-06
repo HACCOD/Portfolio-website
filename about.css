@@ -1,0 +1,15 @@
+.about-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.about-box p{
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 40vw;
+    height: 40vh;
+    padding: 15px;
+}
