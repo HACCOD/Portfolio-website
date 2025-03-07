@@ -1,0 +1,85 @@
+/* Services Section Styling */
+#services {
+    padding: 80px 20px;
+    background-color: #081b29;
+    color: #ededed;
+    text-align: center;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services-intro {
+    font-size: 1.1rem;
+    color: #c0c0c0;
+    margin-bottom: 50px;
+  }
+  
+  .service-modules {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: nowrap;
+  }
+  
+  .service-card {
+    background-color: #112e42;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1 1 calc(33.333% - 30px);
+    box-shadow: 0 4px 15px rgba(0, 171, 240, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 171, 240, 0.4);
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    color: #00abf0;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: aqua;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #c0c0c0;
+    margin-bottom: 20px;
+  }
+  
+  .service-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #081b29;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-cta:hover {
+    background-color: rgb(13, 240, 240);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-modules {
+      flex-direction: column;
+    }
+  
+    .service-card {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+  }
