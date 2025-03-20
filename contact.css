@@ -1,0 +1,61 @@
+.contact{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-term h1{
+    font-size: 2rem;
+    color: aqua;
+}
+
+.heading-term p{
+    text-align: center;
+}
+
+.input-boxes{
+    margin-top: 50px;
+    width: 100vw;
+    height: 600px;
+    text-align: center;
+}
+
+.input-boxes h4{
+    font-size: 2rem;
+}
+
+.input-boxes input{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+    /* border: 5px solid aqua; */
+}
+
+.input-boxes textarea{
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* border: 5px solid aqua; */
+}
+
+.input-boxes button{
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 200px;
+    font-size: larger;
+    background-color: aqua;
+}
+
+.input-boxes button:hover{
+    box-shadow: 2px 2px rgb(62, 152, 152);
+}
+
+header{
+    position: absolute;
+}
